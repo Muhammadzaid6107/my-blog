@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    color: black;
+    background-color: #f1f1f1;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+}
+/* =======================================
+            HERO SECTION 
+======================================= */
+.hero-container{
+    padding: 32px 16px;
+    text-align: center;
+    /* font-weight: 400; */
+}
+.h1{
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+
+}
+b{
+    font-weight: 500;
+}
+.paragraph{
+    margin: 15px 0;
+    text-align: center;
+
+}
+.s1{
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    text-align: center;
+}
+/* ==========================================
+        SECOND CONTAINER 
+========================================== */
+.second-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-bottom: 20px;
+    max-width: 1400px;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-inline: auto;
+}
+.left-container{
+    width: 66.66666%;
+    float: left;
+
+}
+/* ==========================================
+             BOX1 
+==========================================              */
+.box1{
+    margin: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+.image{
+    width: 100%;
+    vertical-align: middle;
+}
+.heading-container{
+    padding: 0.01em 16px;
+}
+.h3-1{
+    font-size: 24px;
+    margin: 10px 0;
+
+}
+.b1{
+    font-weight: 600;
+}
+.h5-1{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+.s2{
+    opacity: 0.60;
+}
+.text-container{
+    padding: 0.01em 16px;
+}
+.p2{
+    margin: 15px 0;
+}
+.buttons{
+    display: flex;
+}
+.button1{
+    width: 66.66666%;
+    /* float: left; */
+}
+.p3{
+    margin: 15px 0;
+}
+.bu1{
+    color: black;
+    background-color: #fff;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font: inherit;
+    /* font-weight: bolder; */
+}
+.bu1:hover{
+    background-color: #ccc;
+}
+.b2{
+    font-weight: bolder;
+}
+.button2{
+    width: 33.33333%;
+    /* float: left; */
+}
+.p4{
+    margin-top: 15px;
+}
+.s3{
+    padding: 12px 24px;
+    float: right;
+}
+.b3{
+    font-weight: bolder;
+}
+.s4{
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    text-align: center;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+/* =======================================
+           BOX2
+======================================= */
+.S5{
+    border-radius: 50%;
+}
+/* =======================================
+right container 
+====================================== */
+.right-container{
+    width: 33.33333%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box3{
+    margin: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.h4{
+font-size: 20px !important;
+}
+.P2{
+    margin: 15px 0;
+}
+/* ========================================
+    box4
+================== */
+.box4{
+    margin: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+}
+.top{
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+}
+.h4-h{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+.list{
+    color: black;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 8px 16px !important;
+    border-bottom: 1px solid #ddd;
+}
+.li{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+li:hover{
+    background-color: #ccc;
+}
+.image1{
+    width: 50px;
+    float: left;
+    margin-right: 16px;
+    vertical-align: middle;
+    height: 50px !important;
+}
+.s6{
+    font-size: 18px;
+}
+.boxs-container{
+    color: black;
+    background-color: #fff;
+    padding: 0.01em 16px;
+}
+.p5{
+    margin: 15px 0;
+}
+.s7{
+    color: #fff;
+    background-color: black;
+    margin-bottom: 16px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.s8{
+    color: black;
+    background-color: #f1f1f1;
+    margin-bottom: 16px;
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+
+
+}
+/* =======================================
+             FOOTER AREA 
+======================================= */
+.footer-container{
+    color: #fff;
+    background-color: #616161;
+    padding: 32px 16px;
+    margin-top: 16px;
+    display: block;
+}
+.bu2{
+    color: #fff;
+    background-color: black;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    cursor: not-allowed;
+    opacity: 0.3;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font: inherit;
+}
+.bu3{
+    color: #fff;
+    background-color: black;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    font: inherit;
+    border: none;
+    cursor: pointer;
+}
+.bu3:hover{
+    background-color: #ccc;
+    color: black;
+}
+.p6{
+    margin: 15px 0;
+    color: #fff;
+}
+@media screen and (max-width:992px){
+    .second-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-container{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: 100%;
+        
+    }
+  .box3{
+    display: flex;
+    flex-wrap: wrap;
+    /* min-width: 298.66px; */
+    /* flex-direction: column; */
+    width: 100% !important;
+  }
+  .box4{
+    width: 100%;
+  }
+  .left-container{
+    width: 100%;
+  }
+    
+}
+@media screen and (max-width:600px) {
+   .button2{
+    display: none;
+   }
+    
+}
